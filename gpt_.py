@@ -2,8 +2,13 @@ from openai import OpenAI
 
 def chat_with_gpt(user_input, conversation_history):
     client = OpenAI(
+<<<<<<< HEAD
         project='보안문제로 인해 문의 바람',
         api_key='보안문제로 인해 문의 바람'
+=======
+        project='',
+        api_key=''
+>>>>>>> b22f28c (bug fix)
     )
     
     conversation_history
